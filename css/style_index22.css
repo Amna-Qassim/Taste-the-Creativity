@@ -1,0 +1,551 @@
+/* Start Main Rule */
+body {
+    font-family:sans-serif ;
+    background-color: #fff
+}
+
+.container {
+    width:1170px;
+    margin:auto
+}
+.clearfix {
+    clear:both 
+}
+
+/* End Main Rule */
+
+/* Start Header*/
+
+.header { background-color: #19283f; height:650px }
+
+.header .navbar { overflow: hidden; padding-top: 13px}
+
+.header .navbar .h11 {
+    /*#f6fbff*/
+    float:left;
+    color:#fff;
+    padding:2px;
+    margin-top: -5px;
+    font-family: cursive;
+}
+.span2 { color:rgba(240,128,128,0.9)
+    }
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0px;
+    padding-top:13px;
+    float:right;
+    position: relative;
+    left:130px;
+    overflow: hidden 
+}
+.header .navbar ul li { float:left; padding: 5px; font-size:25px;}
+
+.header .navbar ul li a{text-decoration: none; color:#fff; padding: 9px}
+
+.header .navbar ul li a.active,
+.header .navbar ul li a:hover,
+span { color:#00c7c0; cursor:pointer}
+
+.header .navbar ul li i {
+    border-left: 5px solid #00c7c0;
+    padding:0 20px;
+    height: 30px;
+    color:#fff
+}
+.header .navbar ul li button {
+    padding:10px;
+    font-size: 22px;
+    width:150px;  
+    margin-top: -10px
+}
+.header .slider .intro { text-align: center; padding-top: 165px; color:#fff }
+
+.header .slider .intro h1 {
+    margin:0px auto;
+    font-size: 65px;
+    width:600px;
+    padding-bottom:6px 
+}
+.header .slider .intro span { 
+    font-size: 23px;
+    display: block;
+    margin-bottom: 30px
+}
+.header .slider .intro button {
+    padding:12px;
+    font-size: 28px;
+    width:210px;
+}
+/* End header */
+
+/* Start Share */
+
+.share { text-align: center; margin-top: 60px}
+
+.share .shar1 i {
+    color:rgba(240,128,128,0.9);
+    font-size: 110px;
+    margin-bottom: 25px  
+}
+.share .shar2 { margin-top: 130px; overflow: hidden }
+.share .shar2 .sub_shar2 {
+    float:left;
+    margin: auto 20px;
+    width:28.3333%;
+    padding:8px   
+}
+.share .shar2 .sub_shar2 i {
+    color:rgba(240,128,128,0.9);
+    font-size: 100px;
+    margin-bottom: 25px 
+}
+.share .shar2 .sub_shar2 h2 {
+    font-size: 23px;
+    padding:5px;
+    color:#00c7c0;
+    margin-bottom: 10px
+}
+/* End Share */
+
+/* Start Make && Filter */
+.make {
+    text-align: center;
+    background-color: #eff7fa;
+    height: 1650px;
+    margin-top: 90px;
+    padding-top:35px;
+    overflow: hidden
+}
+
+.make .sub_make1 p { line-height: 1}
+
+.make .sub_make1 i { color:rgba(240,128,128,0.9); font-size: 110px; margin-bottom: 25px}
+  
+.make .filter { margin: 35px 0; display: inline-block; text-align: center }
+
+.make .filter ul {list-style: none; padding-left: 0px; overflow: hidden }
+
+.make .filter ul li {
+    margin:8px;
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    padding:13px;
+    border: 1px solid #00c7c0;
+    border-radius: 20px;
+    background: rgba(26,193,186,0.555);
+}
+.make .filter ul li{
+    color:#fff;
+    padding: 20px
+    /*color:#a8b9c0;*/     
+}
+.make .filter ul li.active,
+.make .filter ul li:hover { color:rgba(240,128,128,0.9);cursor: pointer}
+
+.make .img-filter { overflow:hidden; margin-bottom: 20px; }
+
+.make .img-filter> div {
+    float:left;
+    width:24.55555%;
+    margin-bottom:10px
+}
+.make .img-filter> div img {
+    width:95%;
+    height: 300px;
+    margin:4px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc
+}
+
+
+.make button {
+    margin-top: 30px;
+    width: 200px;
+    padding:12px;
+    font-size: 25px;
+    color:#fff;
+    border:2px solid rgba(240,128,128,0.9);
+    background:rgba(26,193,186,0.555)
+}
+/* End Make && Filter */
+
+/* Start About As*/
+
+.about { overflow: hidden }
+
+.about .sub-about1 { text-align: center }
+
+/*.about .sub-about1 p:first-child { margin:0 } مدتصير !*/
+
+.about .sub-about1 p:last-child {
+    margin: auto;
+    width:600px
+}
+.about .sub-about1 i {
+    color:#f08080;
+    font-size: 110px;
+    margin: 25px 0   
+} 
+.about .sub-about2 { margin-top: 70px}
+
+.about .about2-main {
+    float:left;
+    width:40%
+}
+.about .about2-main h1 { color: #00c7c0 }
+
+.about .about2-main button {
+    font-size: 19px;
+    padding: 15px;
+    width:230px;
+    color:#fefefe;
+    background-color:rgba(240,128,128,0.9)
+} 
+.about .about2-img {
+    float:right;
+    margin-left: 150px;
+    width:45%
+}
+/* End About As*/
+
+/* Start Meet */
+.meet {
+    text-align: center;
+    padding:60px;
+    height: 730px;
+    background-color: #eff7fa
+}
+.meet .sub-meet2 {
+    overflow: hidden;
+    padding-top: 50px;
+    margin: auto; 
+}
+.meet .sub-meet2 .sub-meet2-child {
+    background-color: #fff;
+    width: 23%;
+    float: left;
+    height: 470px;
+    margin-left: 20px;
+}/*33d1cc*/
+.meet .sub-meet2 .sub-meet2-child img {
+    width:100%;
+    height: 300px
+}
+.meet .sub-meet2 .sub-meet2-child button{
+    position: relative;
+    bottom: 65px;
+    padding:20px;
+    width:100%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    /*rgba(51,209,204,0.8)*/
+    background-color:rgba(26,193,186,0.8);
+    color:#fff 
+}
+.meet .sub-meet2 .sub-meet2-child q {
+    background-color: #fff;
+    position: relative;
+    bottom:30px
+}
+/* End Meet */
+
+/* Start Comapny */
+.com-icon { 
+    padding-top: 110px;  
+}
+.com-icon i {
+    color:#fff; 
+    background-color:rgba(26,193,186,0.555);
+    border-radius: 30px;
+    margin-left:50px;
+    width:9.2%;
+    text-align: center;
+    font-size: 110px; 
+}
+/* End Comapny */
+
+/* Start your project */
+.proj
+{
+    margin-top:70px;
+    background-color: #202945;
+    text-align: center;
+    padding:60px 10px;
+    height: 300px;
+    color:#fff
+}
+.proj h1 {font-size: 45px; margin-bottom: 10px }
+
+.proj p { margin-bottom: 60px }
+
+.proj button { padding:15px; width:250px}  
+
+/* End your project */
+
+/* Start Read Blog */
+.read-blog {
+    text-align: center;
+    margin-top: 25px
+}
+ .read-blog .sub-read-blog1 i{
+    color:#f08080;
+    font-size: 110px;
+    margin: 25px 0   
+} 
+.sub-read-blog2 { margin: 70px auto; overflow: hidden }
+
+.sub-read-blog2 .read-blog2-child {
+    width:29.33333%;
+    overflow: hidden;
+    float:left;
+    margin-right: 40px;
+    margin-bottom: 90px
+}
+.sub-read-blog2 .read-blog2-child img { width:100%; height:350px }
+
+.sub-read-blog2 .read-blog2-child p {
+    float:left;
+    color:#5f9ea0;
+    margin-top: 5px;
+    margin-bottom: -1px
+}
+.sub-read-blog2 .read-blog2-child p:last-child { color:#f08080 }
+
+.sub-read-blog2 button {
+    position: relative;
+    right:60px;
+    padding: 20px;
+}
+/* End Read Blog */
+
+/* Start E-mail*/
+.email {
+    overflow: hidden;
+    background-color: #1a2a47;
+    text-align: center;
+    height: 120px;
+    padding-top: 3%;
+}
+
+.email h2 {
+    display: inline-block;
+    margin:0 15px 0 20px;
+    font-size: 27px
+}
+
+.email input[type="email"] {
+    border: none;
+    background: none;
+    padding: 10px;
+    border-bottom: 1px solid #D1D6DA;
+    width:40%;
+    color:#fff;
+    outline: unset
+}
+.email input[type="email"]:hover {
+    border-bottom: 3px solid #00c7c0;   
+} 
+.email input[type="submit"] {
+    position: relative;
+    left:70px;
+    font-size: 25px;
+    padding:15px;
+    width:250px   
+}
+::-webkit-input-placeholder {
+    color:#D1D6DA;
+    font-size: 20px
+}
+.div-color1 {
+    width: 100%;
+    height: 5px;
+    background-color:#00c7c0
+}
+.div-color2 {
+    width: 100%;
+    height: 40px;
+    background-color:#1a2a47
+}
+
+.div-color2 .sp1, 
+.div-color2 .sp2{
+    float:left;
+    width:40px;
+    margin-left: 70px;
+    height:36px;
+    border: 2px solid #00c7c0;
+    border-radius: 50px;
+    background-color:#1a2a47
+    
+}
+.div-color2 .sp2 {
+    border: 2px solid #f08080;
+}
+
+.div-color3 {
+    width: 100%;
+    height: 5px;
+    background-color:#f08080
+}
+/*
+.div-color3 {
+    width: 100%;
+    height: 3px;
+    background-color:#f08080
+}
+.div-color4 {
+    background-color:#1a2a47;
+        width: 100%;
+    height: 5px;
+    
+}*/
+/*
+.email {
+    background-color: #1a2a47;
+    text-align: center;
+    height: 150px;
+    padding-top: 30px;
+}
+.email h2 {
+     display: inline-block;
+     font-size: 28px
+}
+.email input {
+    padding: 10px;
+    outline: none;
+    position: relative;
+    left: 10px;
+    background: none
+    
+}
+.email input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    width:500px;
+    color:#fff
+}
+.email input[type="submit"] {
+    position: relative;
+    left: 70px;
+    padding:15px;
+    width:200px;
+    color:#fff;  
+}*/
+
+/* End E-mail */
+
+/* Start Footer */
+.footer {
+    background-color:#1a2a47;
+    padding-top: 40px;
+    height: 400px;
+}
+.footer .footer-1{
+    float:left;
+    margin-left: 5%;
+    
+}
+.footer h1 {
+    color:#fff;
+    font-family: cursive
+}
+.footer-1 p {
+    margin-bottom: 70px
+}
+.footer .footer-2 {
+    float: left;
+    width:18%;
+    margin-left: 2%;   
+}
+.footer .footer-2 ul {
+    list-style: none;
+    
+}
+.footer .footer-2 ul .active-li,
+.footer .footer-3 .active-li{
+    color:#fff;
+    font-size: 22px;
+    font-weight:300
+}
+.footer .footer-2 ul li {
+    padding: 10px;
+    font-size: 20px;
+    color:#8b9ba4
+}
+.footer .footer-3 {
+    padding-top: 1px
+}
+
+.footer .footer-3 button {
+    padding: 15px;
+    margin-top: 36px;
+    width: 300px
+}
+.footer .footer-3 ul { 
+    list-style: none;
+    overflow: hidden;
+    padding-left: 28px;
+    margin-top: 20px;
+    color:#fff
+}
+.footer .footer-3 ul li {
+    padding: 20px 5px;
+    text-align: center;
+    float: left  
+}
+.footer .footer-3 ul li i {
+    cursor: pointer;
+    width: 43px;
+    height: 40px;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 50%
+}
+.copy-right {
+    padding-top:20px;
+    text-align: center;
+    color:#fff;
+    background-color: #1a2a47;
+    height:60px;
+    font-size: 25px;
+    font-weight: bold
+}
+/* End Footer */
+
+/* Start My FrameWork */
+
+.style_button {
+    border: 2px solid #00c7c0;
+    outline: unset;
+    font-weight:bolder;
+    background: none;
+    color:#f08080;
+    font-size: 22px;
+    border-radius: 30px;
+    padding:10px;
+    cursor: pointer  
+}
+.style_P {
+    font-weight: bold;
+    color:#afbec5;
+    font-size: 16px ;
+    line-height: 1.7
+}
+.style_h1 {
+    color:#00c7c0;
+    font-family: cursive;
+    font-size: 35px
+}
+.hr {
+    margin:15px auto;
+    width:150px;
+    background-color: #00c7c0;
+    height: 2px;
+    border: 0
+}
+/* End My FrameWork */
